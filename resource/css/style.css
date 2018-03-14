@@ -1,0 +1,40 @@
+/*style of page*/
+html{
+  font-size: 18px;
+  background-color: white;
+}
+
+body{
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5em
+}
+
+h1, h4{
+  font-weight: bold;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+.name{
+  background-color: black;
+  color: white;
+}
+
+.name .container{
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+.name img{
+  height: 1.5em;
+  padding-right: 15px;
+}
+
+.picture_area{
+  background-image: url("C:/Users/Gabriela/Documents/Projects/secret_agent/resource/moto.jpeg");
+}
